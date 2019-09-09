@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+}
+
+.form__fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__element {
+    width: 50%;
+    padding: 0 10px 10px 0;
+}
+
+.form__element.form__element--full{
+    width: 100%;
+}
+
+.form__element label {
+    width: 100%;
+}
+
+.form__element select {
+    width: 100%;
+}
+
+.form__element input {
+    width: 100%;
+}
+.form__element textarea {
+    width: 100%;
+}
